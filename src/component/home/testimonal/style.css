@@ -1,0 +1,74 @@
+.testimonal .items {
+    padding: 30px;
+    transition: 0.5s;
+    width: 50%;
+    justify-content: center;
+    margin-left: 350px;
+    border-radius: 5%;
+  }
+  
+  .testimonal .items:hover
+  {
+    transform: translateY(-10%);
+  }
+  
+  .testimonal .img {
+    position: relative;
+ 
+    .testimonial-item .word {
+      display: inline-block;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.5s, transform 0.5s;
+    }
+    
+    .testimonial-item:hover .word {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .testimonal img {
+    width: 280px;
+    height: 250px;
+    border-radius: 100%;
+ 
+  }
+  .testimonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #b27c1e;
+    color: #fff;
+  }
+  .testimonal .name {
+    margin: 25px;
+  }
+  .testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .testimonal .name span {
+    color: #b2791e;
+  }
+  .testimonal p {
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+   
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .testimonal .items:hover {
+    background-color: #b2721e;
+    color: #fff;
+    cursor: pointer;
+  }
+  .testimonal .items:hover span,
+  .testimonal .items:hover p {
+    color: #fff;
+  }
+  .testimonal .items:hover i {
+    background-color: #fff;
+    color: #b2771e;
+  }
+  

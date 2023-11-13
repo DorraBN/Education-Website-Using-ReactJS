@@ -23,7 +23,7 @@ const Footer = () => {
         <div className='container padding'>
           <div className='box logo'>
             <h1>Greenix</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+            <span>ONLINE EDUCATION & LEARNING<i className='fas fa-book-open icon'></i></span>
            <p>Greenix est une entreprise qui propose des solutions technologiques pour optimiser la gestion et l'organisation des activités. Ils offrent des solutions informatiques sur mesure de haute qualité pour accroître la réussite commerciale en tirant parti de la technologie.</p>
             <p>contacter-nous via</p>
 <div className="social">

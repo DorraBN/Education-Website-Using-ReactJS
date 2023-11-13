@@ -9,15 +9,15 @@ const Testimonal = () => {
 <>
       <section className='testimonal padding'>
         <div className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful CEO' />
+          <Heading subtitle='Découvrir' title='Notre excellente CEO' />
 
           <div className='content text-accent'>
             {testimonal.map((val) => (
               <div className='items shadow'>
                 <div className='box flex'>
-                  <div className='img'>
+                  <div className='img'> <i className='fa fa-quote-left icon'></i>
                     <img src={val.cover} alt='' />
-                    <i className='fa fa-quote-left icon'></i>
+                   
                   </div>
                   <div className='name'>
                     <h2>{val.name}</h2>

@@ -10,10 +10,11 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Heading subtitle='Bienvenue à Greenix' title='Le meilleur  Expertise de leducation en ligne ' /> 
+            <br /><br /><br /><br />
+            <Heading subtitle='Bienvenue à Greenix' title="Le meilleur  Expertise de l'education en ligne "/> 
             <div className='button'>
               <button  >
-              <Link to="/inscription">S'inscrir</Link>
+              <Link to="/inscription">S'inscrire</Link>
               </button>
               <button className="primary-btn">
                voir cours

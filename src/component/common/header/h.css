@@ -1,48 +1,54 @@
 /*--------head------------*/
-.head {
-    padding: 20px 0;
-    color: #fff;
-    margin-top: 1500px !important;
 
-  }
   
-  .logo h1 {
-    font-size: 35px;
-    font-weight: 900;
-  }
-  .head .icon {
-    margin-left: 10px;
-  }
-  /*--------head------------*/
-  /*--------header------------*/
+ ---------*/
   header {
     background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 30px;
+   
   }
+ .flexSB{
+    display: flex;
+ }
  
-  .social{
-padding: 80px;
-margin: 40px;
-size: 80px;
-  }
   header .nav {
     display: flex !important;
+    background-color: #b2791e;
+    margin-left: 250px;
   }
   header li {
     margin-right: 70px;
     padding:10px;
-    size: 50px;
+    size: 10px;
+    background-color: rgba(16, 16, 16, 0.2);
   }
+ .start {
+  background-color: #1eb2a6;
+  padding: 30px 70px;
+  color: #fff;
+  
+}
+  .social1{
+    padding: 80px;
+    margin-top: 70px;
+    size: 80px;
+    margin-left: 150px;
+      }
   header ul {
     padding: 30px 20px;
+    display: flex;
+    margin-right: 150px;
+    background-color: rgba(32, 31, 31, 0.2);
+ height: 10%;
+
   }
   header ul li a {
     color: #fff;
     font-weight: 500;
     transition: 0.5s;
   }
+
   header ul li a:hover {
-    color: #1eb2a6;
+    color: #b2721e;
   }
   .start {
     background-color: #b2791e;
@@ -52,9 +58,8 @@ size: 80px;
     color: #fff;
     
   }
-  .toggle {
-    display: none;
-  }
+
+ 
   /*--------header------------*/
   @media screen and (max-width: 768px) {
     .start {

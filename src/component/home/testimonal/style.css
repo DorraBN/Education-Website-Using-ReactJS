@@ -1,17 +1,21 @@
 .testimonal .items {
     padding: 30px;
     transition: 0.5s;
-    width: 50%;
+    width: 60%;
     justify-content: center;
-    margin-left: 350px;
+    margin-left: 290px;
     border-radius: 5%;
+    height: 50%;
   }
   
   .testimonal .items:hover
   {
     transform: translateY(-10%);
   }
-  
+  .fa-fa-quote-left-icon
+  {
+margin-right: 200px;
+  }
   .testimonal .img {
     position: relative;
  
@@ -30,7 +34,7 @@
   .testimonal img {
     width: 280px;
     height: 250px;
-    border-radius: 100%;
+ 
  
   }
   .testimonal i {
@@ -41,7 +45,7 @@
     color: #fff;
   }
   .testimonal .name {
-    margin: 25px;
+    margin: 35px;
   }
   .testimonal .name h2 {
     font-size: 20px;
@@ -56,7 +60,7 @@
     transition: 0.5s;
    
     margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .testimonal .items:hover {
     background-color: #b2721e;

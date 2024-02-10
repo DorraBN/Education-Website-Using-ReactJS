@@ -270,11 +270,11 @@ export const homeAbout = [
   export const testimonal = [
     {
       id: 1,
-      name: "Mme Bochra hammami",
+      name: "Mme jane smith",
       post: "Founder & CEO à GREEN SPACE COWORKING",
       
       p: "elle occupe un rôle essentiel en tant que personne de contact et gestionnaire clé de l'entreprise. Avec une passion inébranlable pour les domaines de la communication, des médias, de l'édition et de la publicité, ",
-      cover: "./images/b.jpg",
+      cover: "./images/th.jpeg",
     }
   ]
   
